@@ -1,1 +1,1 @@
-from .bitmex import bitmex
+from .bitmex_bundle import bitmex_bundle
