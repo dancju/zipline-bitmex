@@ -1,23 +1,29 @@
 Zipline BitMEX
 ==============
 
-BitMEX bundle for `Zipline <https://github.com/quantopian/zipline>`_
+.. image:: https://img.shields.io/pypi/status/zipline-bitmex.svg
+   :target: https://pypi.org/project/zipline-bitmex
+.. image:: 	https://img.shields.io/pypi/dm/zipline-bitmex.svg
+   :target: https://pypi.org/project/zipline-bitmex
+.. image:: https://img.shields.io/pypi/pyversions/zipline-bitmex.svg
+   :target: https://pypi.org/project/zipline-bitmex
+.. image:: https://img.shields.io/pypi/v/zipline-bitmex.svg
+   :target: https://pypi.org/project/zipline-bitmex
+
+`BitMEX <https://bitmex.com>`_ bundle for `Zipline <https://github.com/quantopian/zipline>`_
 
 **[WARNING]** There is a bug in this repo. It can ingest the data from the BitMEX API to the Zipline folder, but somehow I can't run an algorithm upon it. Any PRs or advice would be appreciated!
 
 Usage
 -----
 
-1. Install this package with pip:
+1. Install this package with pip.
 
 ::
 
-    pip install zipline-bitmex
+    pip install --user zipline-bitmex
 
-. You may want to run this command with ``--user`` parameter.
-
-2. Register this package to Zipline by writing following content to
-   ``$HOME/.zipline/extension.py``:
+2. Register this package to Zipline by amending the following script to ``~/.zipline/extension.py``.
 
 .. code:: python
 
@@ -37,7 +43,7 @@ Usage
         minutes_per_day=24*60,
     )
 
-3. Ingest the data bundle with:
+3. Ingest the data bundle.
 
 ::
 
