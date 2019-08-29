@@ -12,7 +12,7 @@ Zipline BitMEX
 
 `BitMEX <https://bitmex.com>`_ bundle for `Zipline <https://github.com/quantopian/zipline>`_
 
-**[WARNING]** There is a bug in this repo. It can ingest the data from the BitMEX API to the Zipline folder, but somehow I can't run an algorithm upon it. Any PRs or advice would be appreciated!
+**[WARNING]** This Python module is unusable by now due to `an upstream bug of Zipline <https://github.com/quantopian/zipline/issues/2405>`_. Unfortunately, it seems that Zipline is no longer under maintenance.
 
 Usage
 -----
